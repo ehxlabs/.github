@@ -16,5 +16,5 @@
 ## Planning
 
 - Roadmap issues and milestones: **`ehsx-kb`**
-- Organization **Projects**: enable after granting automation tokens the `project` scope (see `ehsx-kb` issue **#9**).
+- Organization **Projects**: enable after granting automation tokens the `project` scope (see the **Enable GitHub Projects (token scope)** issue in `ehsx-kb`).
 
