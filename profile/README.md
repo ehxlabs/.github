@@ -1,20 +1,19 @@
-# ehsxlabs
+# ehxlabs
 
-**EHSX (Ecosystem Health & Security IndeX)** — an AI-native infrastructure intelligence platform for Web3 and cloud-native ecosystems.
+**EHX** — infrastructure intelligence for Web3 and cloud-native teams. Product site: [ehxlabs.xyz](https://ehxlabs.xyz).
 
 ## Repositories
 
 | Repository | Purpose |
 |------------|---------|
-| [`ehsx-web`](https://github.com/ehsxlabs/ehsx-web) | Next.js frontend (TypeScript, Tailwind, shadcn/ui) |
-| [`ehsx-api`](https://github.com/ehsxlabs/ehsx-api) | FastAPI service layer |
-| [`ehsx-templates`](https://github.com/ehsxlabs/ehsx-templates) | Terraform, Kubernetes, Helm, Compose, Ansible templates |
-| [`ehsx-modules`](https://github.com/ehsxlabs/ehsx-modules) | Reusable Terraform modules and Helm charts |
-| [`ehsx-kb`](https://github.com/ehsxlabs/ehsx-kb) | Knowledge base + canonical roadmap (`docs/EHSX_Roadmap.md`) |
-| [`ehsx-monitoring`](https://github.com/ehsxlabs/ehsx-monitoring) | Observability presets (Prometheus, Grafana, Loki, Tempo, Alertmanager) |
+| [`ehx-web`](https://github.com/ehxlabs/ehx-web) | Next.js frontend (TypeScript, Tailwind, shadcn/ui) |
+| [`ehx-api`](https://github.com/ehxlabs/ehx-api) | FastAPI service layer |
+| [`ehx-templates`](https://github.com/ehxlabs/ehx-templates) | Terraform, Kubernetes, Helm, Compose, Ansible templates |
+| [`ehx-modules`](https://github.com/ehxlabs/ehx-modules) | Reusable Terraform modules and Helm charts |
+| [`ehx-kb`](https://github.com/ehxlabs/ehx-kb) | Knowledge base + canonical roadmap (`docs/EHX_Roadmap.md`) |
+| [`ehx-monitoring`](https://github.com/ehxlabs/ehx-monitoring) | Observability presets (Prometheus, Grafana, Loki, Tempo, Alertmanager) |
 
 ## Planning
 
-- Roadmap issues and milestones: **`ehsx-kb`**
-- Organization **Projects**: enable after granting automation tokens the `project` scope (see the **Enable GitHub Projects (token scope)** issue in `ehsx-kb`).
-
+- Roadmap issues and milestones: **`ehx-kb`**
+- Organization **Projects**: enable after granting automation tokens the `project` scope (see the **Enable GitHub Projects (token scope)** issue in `ehx-kb`).
