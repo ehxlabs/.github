@@ -27,6 +27,22 @@ Core product repos require **pull request review** and **green CI** before merge
 - **Local CI before push:** `./scripts/ci-check.sh` in each repo ([ci-before-push](https://github.com/ehxlabs/ehx-kb/blob/main/docs/runbooks/ci-before-push.md))
 - **GitHub Free note:** enforced branch protection on **private** repos requires **Team/Pro** (or public repos). Until then, use PRs + green Actions as the social contract; run `ehx-kb/scripts/apply-branch-protection.sh` after plan upgrade.
 
+## Security defaults
+
+Org-wide hygiene for Dependabot, secret scanning, and member 2FA:
+
+| Control | Core repos | New repos (org default) |
+|---------|------------|-------------------------|
+| Dependabot alerts | Enabled (`ehx-api`, `ehx-web`, `ehx-kb`) | Enabled |
+| Dependabot security updates | Enabled | Enabled |
+| Dependabot version PRs | Weekly via `.github/dependabot.yml` | Add config per repo |
+| Secret scanning + push protection | **Team/GHAS** for private repos | Enabled when plan allows |
+| 2FA required for members | **Org owner UI** — see runbook | — |
+
+- **Policy & apply script:** [ehx-kb runbook — org security defaults](https://github.com/ehxlabs/ehx-kb/blob/main/docs/runbooks/github-org-security-defaults.md)
+- **Apply:** `ehx-kb/scripts/apply-org-security-defaults.sh` (after `gh auth login` as org owner)
+- **GitHub Free note:** private secret scanning needs **Team/Advanced Security**; Dependabot alerts work on Free private repos today.
+
 ## Planning
 
 - Roadmap issues and milestones: **`ehx-kb`**
